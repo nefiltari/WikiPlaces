@@ -1,0 +1,145 @@
+doctype html
+html(lang='en', ng-app='app')
+  head
+    meta(charset='utf-8')
+    meta(name="format-detection", content="telephone=no")
+    meta(name="msapplication-tap-highlight", content="no")
+    <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
+    meta(name="viewport", content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi")
+    meta(http-equiv="X-UA-Compatible", content="IE=edge,chrome=1")
+    meta(name='description', content='A semantic browser based on points of interests and written in PhoneGap.')
+    meta(name='author', content='Francesco Möller')
+    title(ng-bind-template='{{pageTitle}}')
+    link(rel='stylesheet', href='css/app.css')
+    //-script(src='http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js')
+    //if lte IE 7
+      script(src='http://cdnjs.cloudflare.com/ajax/libs/json2/20110223/json2.js')
+    //if lte IE 8
+      script(src='//html5shiv.googlecode.com/svn/trunk/html5.js')
+    script.
+      window.brunch = window.brunch || {};
+      window.brunch['auto-reload'] = {
+        enabled: true
+      };
+    script(src='js/vendor.js')
+    script(src='js/partials.js')
+    script(src='js/app.js')
+  body(ng-controller='AppCtrl')
+    .container
+      .row
+        .list-group.col-xs-12.col-sm-6.col-md-4
+          a.list-group-item.active
+            .col-xs-3
+              img.img-thumbnail(heigh="70px", width="70px", src="testthumb")
+            .col-xs-9
+              h4.list-group-item-heading Headline
+              p.list-group-item-text Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+            .clearfix
+          a.list-group-item
+            .col-xs-3
+              img.img-thumbnail(heigh="70px", width="70px", src="testthumb")
+            .col-xs-9
+              h4.list-group-item-heading Headline
+              p.list-group-item-text Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+            .clearfix
+          a.list-group-item
+            .col-xs-3
+              img.img-thumbnail(heigh="70px", width="70px", src="testthumb")
+            .col-xs-9
+              h4.list-group-item-heading Headline
+              p.list-group-item-text Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+            .clearfix
+          a.list-group-item
+            .col-xs-3
+              img.img-thumbnail(heigh="70px", width="70px", src="testthumb")
+            .col-xs-9
+              h4.list-group-item-heading Headline
+              p.list-group-item-text Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+            .clearfix
+        .list-group.col-xs-12.col-sm-6.col-md-4
+          a.list-group-item
+            .col-xs-3
+              img.img-thumbnail(heigh="70px", width="70px", src="testthumb")
+            .col-xs-9
+              h4.list-group-item-heading Headline
+              p.list-group-item-text Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+            .clearfix
+          a.list-group-item
+            .col-xs-3
+              img.img-thumbnail(heigh="70px", width="70px", src="testthumb")
+            .col-xs-9
+              h4.list-group-item-heading Headline
+              p.list-group-item-text Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+            .clearfix
+          a.list-group-item
+            .col-xs-3
+              img.img-thumbnail(heigh="70px", width="70px", src="testthumb")
+            .col-xs-9
+              h4.list-group-item-heading Headline
+              p.list-group-item-text Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+            .clearfix
+          a.list-group-item
+            .col-xs-3
+              img.img-thumbnail(heigh="70px", width="70px", src="testthumb")
+            .col-xs-9
+              h4.list-group-item-heading Headline
+              p.list-group-item-text Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+            .clearfix
+        .list-group.col-xs-12.col-sm-6.col-md-4
+          a.list-group-item
+            .col-xs-3
+              img.img-thumbnail(heigh="70px", width="70px", src="testthumb")
+            .col-xs-9
+              h4.list-group-item-heading Headline
+              p.list-group-item-text Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+            .clearfix
+          a.list-group-item
+            .col-xs-3
+              img.img-thumbnail(heigh="70px", width="70px", src="testthumb")
+            .col-xs-9
+              h4.list-group-item-heading Headline
+              p.list-group-item-text Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+            .clearfix
+          a.list-group-item
+            .col-xs-3
+              img.img-thumbnail(heigh="70px", width="70px", src="testthumb")
+            .col-xs-9
+              h4.list-group-item-heading Headline
+              p.list-group-item-text Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+            .clearfix
+          a.list-group-item
+            .col-xs-3
+              img.img-thumbnail(heigh="70px", width="70px", src="testthumb")
+            .col-xs-9
+              h4.list-group-item-heading Headline
+              p.list-group-item-text Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+            .clearfix
+        .list-group.col-xs-12.col-sm-6.col-md-4
+          a.list-group-item
+            .col-xs-3
+              img.img-thumbnail(heigh="70px", width="70px", src="testthumb")
+            .col-xs-9
+              h4.list-group-item-heading Headline
+              p.list-group-item-text Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+            .clearfix
+          a.list-group-item
+            .col-xs-3
+              img.img-thumbnail(heigh="70px", width="70px", src="testthumb")
+            .col-xs-9
+              h4.list-group-item-heading Headline
+              p.list-group-item-text Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+            .clearfix
+          a.list-group-item
+            .col-xs-3
+              img.img-thumbnail(heigh="70px", width="70px", src="testthumb")
+            .col-xs-9
+              h4.list-group-item-heading Headline
+              p.list-group-item-text Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+            .clearfix
+          a.list-group-item
+            .col-xs-3
+              img.img-thumbnail(heigh="70px", width="70px", src="testthumb")
+            .col-xs-9
+              h4.list-group-item-heading Headline
+              p.list-group-item-text Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+            .clearfix

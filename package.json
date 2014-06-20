@@ -1,0 +1,47 @@
+{
+  "name": "WikiPlaces",
+  "version": "0.0.1",
+  "description": "A semantic browser based on points of interests and written in PhoneGap.",
+  "main": "index.html",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha --compilers coffee:coffee-script"
+  },
+  "keywords": [
+    "wiki",
+    "places",
+    "poi",
+    "phonegap",
+    "semantic"
+  ],
+  "author": "Francesco Moeller, Sebastian Braune",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/nefiltari/WikiPlaces.git"
+  },
+  "devDependencies": {
+    "coffee-script": "^1.7.1",
+    "chai": "^1.9.1",
+    "mocha": "^1.18.2"
+  },
+  "dependencies": {
+    "jade": "^0.33.0",
+    "brunch": "~1.7",
+    "javascript-brunch": ">= 1.0 < 1.8",
+    "coffee-script-brunch": "^1.7.3",
+    "css-brunch": ">= 1.0 < 1.8",
+    "less-brunch": ">= 1.0 < 1.8",
+    "stylus-brunch": "^1.7.0",
+    "auto-reload-brunch": ">= 1.0 < 1.8",
+    "uglify-js-brunch": ">= 1.0 < 1.8",
+    "clean-css-brunch": ">= 1.0 < 1.8",
+    "bower": "^1.0.3",
+    "jade-angularjs-brunch": "0.0.6",
+    "karma": "^0.9.8",
+    "karma-coffee-preprocessor": "0.0.4",
+    "karma-ng-scenario": "0.0.2"
+  }
+}
