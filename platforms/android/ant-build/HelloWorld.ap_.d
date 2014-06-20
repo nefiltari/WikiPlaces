@@ -37,8 +37,12 @@
 /Users/arashi/Projects/WikiPlaces/platforms/android/assets/www/js \
 /Users/arashi/Projects/WikiPlaces/platforms/android/assets/www/plugins \
 /Users/arashi/Projects/WikiPlaces/platforms/android/assets/www/css/app.css \
+/Users/arashi/Projects/WikiPlaces/platforms/android/assets/www/css/app.css.map \
 /Users/arashi/Projects/WikiPlaces/platforms/android/assets/www/js/app.js \
+/Users/arashi/Projects/WikiPlaces/platforms/android/assets/www/js/app.js.map \
 /Users/arashi/Projects/WikiPlaces/platforms/android/assets/www/js/dontUseMe \
+/Users/arashi/Projects/WikiPlaces/platforms/android/assets/www/js/dontUseMe.map \
 /Users/arashi/Projects/WikiPlaces/platforms/android/assets/www/js/partials.js \
 /Users/arashi/Projects/WikiPlaces/platforms/android/assets/www/js/vendor.js \
+/Users/arashi/Projects/WikiPlaces/platforms/android/assets/www/js/vendor.js.map \
 /Users/arashi/Projects/WikiPlaces/platforms/android/ant-build/AndroidManifest.xml \
